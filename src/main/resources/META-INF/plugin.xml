@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<idea-plugin>
+    <id>com.archivec.tokyonight</id>
+    <name>Tokyo Night Theme</name>
+    <vendor email="archivedent@gmail.com" url="https://github.com/archivedent/theme-jetbrains-tokyonight">Archivec</vendor>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.archivec.tokyonight" path="/themes/TokyoNight.theme.json"/>
+    </extensions>
+</idea-plugin>
